@@ -1,0 +1,87 @@
+name: Add a Project
+description: Add a new project to the portfolio (work or personal)
+title: "[Project] "
+labels: ["new-project"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Project title
+      placeholder: "e.g. MCP Server Auth"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - work
+        - personal
+    validations:
+      required: true
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      options:
+        - idea
+        - in-progress
+        - complete
+        - paused
+        - archived
+    validations:
+      required: true
+
+  - type: input
+    id: repo
+    attributes:
+      label: Repo URL
+      placeholder: "https://github.com/..."
+
+  - type: input
+    id: demo
+    attributes:
+      label: Demo URL (optional)
+      placeholder: "https://..."
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: One-sentence summary
+      description: What does this project do?
+      placeholder: "A reference implementation for..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: skills
+    attributes:
+      label: Skills (one per line)
+      description: Use tags from [SKILLS-CATALOG.md](../blob/main/SKILLS-CATALOG.md)
+      placeholder: |
+        mcp-oauth
+        entra-id
+        bicep-iac
+
+  - type: textarea
+    id: tech
+    attributes:
+      label: Tech stack (one per line)
+      placeholder: |
+        Python
+        Bicep
+        Azure Container Apps
+
+  - type: input
+    id: highlight
+    attributes:
+      label: What are you most proud of?
+      placeholder: "One sentence about the hardest or most interesting part"
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+      description: Architecture, links, status details — anything else to capture
