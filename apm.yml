@@ -1,0 +1,12 @@
+name: agentic-portfolio
+version: 1.0.0
+description: >
+  Agentic portfolio of AI and Azure projects — MCP servers, observability,
+  and Foundry-based agent solutions.
+
+dependencies:
+  apm:
+    # Azure Skills Plugin: 25 curated Azure skills + Azure MCP Server (200+ tools)
+    # + Foundry MCP — covers deploy, diagnose, cost, AI, RBAC, and more.
+    # Install with: apm install microsoft/azure-skills
+    - microsoft/azure-skills

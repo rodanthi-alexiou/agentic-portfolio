@@ -1,4 +1,4 @@
-# Rodanthi Alexiou — Agentic Dev Portfolio
+# Roda's Agentic Dev Portfolio
 
 > Building at the intersection of AI, cloud infrastructure, and creative technology.  
 > Microsoft AI partner enablement by day · exploring agentic software at the edges.
@@ -13,6 +13,7 @@
 > Projects (boxes) connect to the skills they use (pills). Blue = work/POC, green = personal, gray = idea.  
 > Updated as projects are added — [add yours here](#add-a-project).
 
+<!-- PROJECTS-ATLAS-START -->
 ```mermaid
 graph LR
   subgraph Work["💼 Work / POCs"]
@@ -61,15 +62,18 @@ graph LR
   W2 --> O2
   W2 --> O3
 ```
+<!-- PROJECTS-ATLAS-END -->
 
 ---
 
 ## Projects
 
+<!-- PROJECTS-TABLE-START -->
 | Project | Type | Status | Tech | Key Skills | Links |
 |---------|------|--------|------|-----------|-------|
 | [MCP Server Auth](projects/work/mcp-server-auth.md) | 💼 Work | 🔄 In Progress | Python · Bicep · FastAPI | MCP OAuth, APIM, Entra ID, Managed Identity | [repo ↗](https://github.com/rodanthi-alexiou/roda-agentic-workshop) |
 | [GenAI Observability](projects/work/observability.md) | 💼 Work | 🔄 In Progress | Python · OpenTelemetry | App Insights, Foundry Agents, GenAI Telemetry | [repo ↗](https://github.com/rodanthi-alexiou/roda-agentic-workshop) |
+<!-- PROJECTS-TABLE-END -->
 
 > **Add a project**: [Open a GitHub Issue](../../issues/new?template=new-project.yml) — fill the form, and the project entry is auto-created.  
 > Or copy [`projects/_template.md`](projects/_template.md) and open a PR.
